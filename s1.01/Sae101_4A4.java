@@ -1,7 +1,15 @@
 import java.util.Scanner;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+/**
+ * This was a group project, therefore you'll 2 of my classmates names also as developers for certain parts
+ * My parts :
+    - affichageTousConcurrentsDansOrdreBrassards
+    - podium
+    - affichageTroisPlaces
+    - trouverCles
+    - trouverValeurs
+    - redimensionnerTableau
+ */
 public class Sae101_4A4 {
     /**
      * -->Développé par Romain Da Chao<--
