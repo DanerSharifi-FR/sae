@@ -18,7 +18,6 @@ Elle est donc <strong>utilisée aussi par l’enseignant</strong>, afin de suivr
   <li>à venir...</li>
 </ul>
 
-<hr>
 <h2>Liste des SAÉs 2025 - 2026 :</h2>
 <ul>
   <li>à venir...</li>
