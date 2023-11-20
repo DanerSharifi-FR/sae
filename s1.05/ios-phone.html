@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>saé s1.05 | Smartphone City</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="logo row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <img src="logo3.png" alt="Smartphone City" class="w-100">
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <br>
+    <div class="firs-part row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 text-center">
+            <a href="phone.html" class="btn btn-primary mb-2">Go Back</a>
+            <h3 class="text-center">
+                Choose your ios phone's model:
+            </h3>
+            <div class="alert alert-info">Demo version : only the first option from left is clickable.</div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <br>
+    <div class="device row">
+        <div class="col-md-3 col-6 mb-3">
+            <div class="rounded border pt-3 pb-2 shadow" id="i15pm">
+                <div class="text-center">
+                    <img src="iphone15pm.png" alt="iPhone 15 Pro Max" style="height: 128px">
+                </div>
+                <h4 class="text-center mt-2">iPhone 15 Pro Max</h4>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-3">
+            <div class="rounded border pt-3 pb-2 shadow" id="i15p">
+                <div class="text-center">
+                    <img src="iphone15p.png" alt="iPhone 15 Pro" style="height: 128px">
+                </div>
+                <h4 class="text-center mt-2">iPhone 15 Pro</h4>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-3">
+            <div class="rounded border pt-3 pb-2 shadow" id="i15plus">
+                <div class="text-center">
+                    <img src="iphone15plus.png" alt="iPhone 15 Plus" style="height: 128px">
+                </div>
+                <h4 class="text-center mt-2">iPhone 15 Plus</h4>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-3">
+            <div class="rounded border pt-3 pb-2 shadow" id="i15">
+                <div class="text-center">
+                    <img src="iphone15.png" alt="iPhone 15" style="height: 128px">
+                </div>
+                <h4 class="text-center mt-2">iPhone 15</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<script>
+    let i15pmDiv = document.querySelector("#i15pm");
+
+    i15pmDiv.addEventListener('click', function () {
+        window.location = 'iPhone15pm.html'
+    });
+</script>
+</body>
+</html>
