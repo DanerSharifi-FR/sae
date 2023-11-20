@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Sae101_4A4 {
     public static void main(String[] args) {
         int[] values1 = {9, 0, 44, 5, -5, 9, 120, 3, -1, 9, 0, 88, 9};
