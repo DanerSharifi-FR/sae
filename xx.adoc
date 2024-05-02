@@ -1,0 +1,103 @@
+= Cahier des Charges: Système de Gestion de Réservations
+Author: Nom de l'Auteur
+Date: {docdate}
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 4
+:source-highlighter: rouge
+:pdf-page-size: A4
+
+[title-page]
+== Page de Garde
+
+image::logo_entreprise.png[Logo de l'Entreprise,200,200]
+
+[.text-center]
+*Document de Spécifications Techniques et Fonctionnelles*
+
+[.text-center]
+_Livré par : Nom de l'Entreprise_
+
+[.text-center]
+_Pour : Client ou Projet Spécifique_
+
+[.text-center]
+_Date de création : {docdate}_
+
+[.text-center]
+_Version : 1.0_
+
+<<<
+
+== Introduction
+
+Ce document définit le cahier des charges pour le développement d'un système de gestion de réservations. Ce système permettra aux utilisateurs de réserver des équipements sportifs au sein d'un complexe municipal.
+
+== Portée du Projet
+
+Le projet comprendra le développement d'une application web permettant :
+* La création de comptes utilisateurs
+* La réservation d'équipements
+* La consultation des disponibilités
+* L'administration des réservations pour les gestionnaires
+
+Les intégrations avec des systèmes de paiement en ligne ne sont pas incluses dans cette phase du projet.
+
+== Besoins Utilisateurs
+
+. *Clients* :
+- Réserver des équipements facilement
+- Annuler ou modifier des réservations
+- Visualiser l'historique de leurs réservations
+
+. *Administrateurs* :
+- Gérer les disponibilités des équipements
+- Accéder à des rapports d'utilisation
+- Modifier les configurations des équipements et horaires
+
+== Exigences Fonctionnelles
+
+. *Fonctionnalités pour les clients* :
+- Authentification et gestion de compte
+- Interface de réservation intuitive
+- Système de notification par email pour confirmations et rappels
+
+. *Fonctionnalités pour les administrateurs* :
+- Tableau de bord pour la gestion des réservations
+- Outils de reporting intégrés
+- Paramétrage des équipements et plages horaires disponibles
+
+== Exigences Non Fonctionnelles
+
+- *Performance* : Le système doit supporter jusqu'à 1000 utilisateurs simultanés sans dégradation notable des performances.
+- *Sécurité* : Protection des données utilisateurs via chiffrement et authentification sécurisée.
+- *Compatibilité* : Compatible avec les dernières versions des navigateurs principaux (Chrome, Firefox, Safari).
+
+== Contraintes
+
+- Délai de livraison : Le système doit être opérationnel pour le début de la saison sportive dans 6 mois.
+- Technologie : Utilisation de frameworks JavaScript modernes (React ou Angular).
+
+== Livraisons
+
+- Phase 1 : Prototype fonctionnel pour les réservations de base (2 mois)
+- Phase 2 : Ajout des fonctionnalités d'administration (2 mois supplémentaires)
+- Phase 3 : Tests utilisateurs et ajustements (2 mois restants)
+
+== Critères d’Acceptation
+
+- Tests de performance validant le support de 1000 utilisateurs simultanés
+- Audit de sécurité confirmant la protection des données
+
+== Budget et Ressources
+
+- Budget estimé : 200 000 EUR
+- Équipe projet : 2 développeurs full-stack, 1 designer UX/UI, 1 chef de projet
+
+== Annexes
+
+- Diagrammes de flux utilisateurs
+- Spécifications détaillées des interfaces
